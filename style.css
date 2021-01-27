@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #334f79;
+}
+
+#hangman {
+    margin: auto;
+}
+
+.container {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head {
+    text-align: center;
+    color: salmon;
+    font-family: sans-serif;
+}
+
+.head h2 {
+    font-size: 35px;
+}
+
+.head p {
+    font-style: italic;
+    font-size: 20px;
+}
+
+.main {
+    margin-left: 50px;
+    position: relative;
+}
+
+.foot {
+    font-size: 30px;
+}
+
+#dashes {
+    position: relative;
+    top: -15px;
+}
+
+.letter {
+    font-size: 35px;
+    color: salmon;
+}
+
+.dash {
+    font-size: 60px;
+    letter-spacing: 11px;
+    color: rgb(58, 105, 207);
+}
+
+#wrongs {
+    width: 300px;
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    font-size: 25px;
+    color: salmon;
+}
+
+.message {
+    position: absolute;
+    top: 50px;
+    background-color: rgb(79, 167, 218);
+    padding: 20px;
+    width: 300px;
+    line-height: 1.5;
+}
+
+.message p {
+    font-size: 20px;
+}
+
+#lost {
+    display: none;
+}
+
+#won {
+    display: none;
+}
+
+button {
+    width: 100px;
+    margin-left: 20px;
+    background-color: salmon;
+    color: white;
+    padding: 10px;
+    border: white solid 2px;
+    border-radius: 8px;
+}
+
+#words span {
+    width: 20px;
+    display: inline-block;
+    border-bottom: solid rgb(51, 128, 216) 2px;
+    margin: 5px;
+}
